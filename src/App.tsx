@@ -1,7 +1,6 @@
+import { AuthView } from '#/modules';
+
 import './App.css';
+import '#/styles/typography.css';
 
-function App() {
-  return <section id='spacer'>123123</section>;
-}
-
-export default App;
+export const App = () => <AuthView />;

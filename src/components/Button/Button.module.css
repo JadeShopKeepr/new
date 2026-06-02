@@ -1,0 +1,41 @@
+button {
+  border: 1px solid;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.contained {
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  border-radius: var(--BtnRadius);
+  border-color: var(--BgBrand);
+  background-color: var(--BgBrand);
+  color: var(--textinvert);
+
+  &:hover {
+    background-color: var(--BgBrandHover);
+    border-color: var(--BgBrandHover);
+  }
+
+  &:focus {
+    border: 1px solid var(--BgBrandHover);
+    background-color: var(--BgBrandHover);
+  }
+
+  &:disabled {
+    background-color: var(--BgBrandDisabled);
+    border-color: var(--BgBrandDisabled);
+    cursor: none;
+  }
+}
+
+.outlined {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  border-color: var(--BgBrand);
+  text-align: left;
+}
