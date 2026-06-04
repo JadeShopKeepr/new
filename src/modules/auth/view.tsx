@@ -14,7 +14,7 @@ export const AuthView = () => {
         your account
       </Typography>
 
-      <Input placeholder='Numbers' format='+38 (###) ### ## ##' component={PatternFormat} />
+      <Input placeholder='Numbers' format='+38 (0##) ### ## ##' component={PatternFormat} />
 
       <Button variant='contained'>Enter</Button>
     </section>
